@@ -1,0 +1,25 @@
+In today’s lab, you will work to analyze another team’s data to uncover the underlying 5 parameters of their 2D normal distribution.  
+
+Each team NN should analyze the data of team MM, where MM=mod(NN+7, 19), so :
+Team 01 analyzes Team 08’s data, 
+Team 02 analyzes Team 09’s data, 
+…
+Team 12 analyzes Team 19’s data 
+Team 13 analyzes Team 01’s data 
+Team 14 analyzes Team 02’s data 
+…
+Team 19 analyzes Team 07’s data 
+
+You will start with the code bootstrapSample.py, which is written to analyze a 1D distribution using a bootstrap approach with 1000 resamples.   You should: 
+
+1) Extend this code to 2D and test it using the data your team created (for which you know the input values)
+
+2) Analyze your alternate team’s data using sub-samples with Nsam= 100, 1000, … up to 10^6.  
+
+3) Post the results of your analysis in a csv file to your group’s NN Drive folder.  Use the template file placed in the top-level Stats Lab folder.  
+
+The file has 16 rows (labels followed by 5, 50, 95 percent values for the five parameter estimates) and 6 columns (labels followed by results for the six log10(Nsam) values).  
+
+4) Create five summary plots - one for each parameter - that show your bootstrap estimates as a function of log10(Nsam).  Plot the medians as points and add error bars showing the 5 and 95% confidence range.  Put png (or pdf’s) of these plots in your Drive folder using the following naming convention: x.png, y.png, sigmax.png, sigmay.png, r.png.
+
+On Thursday after break we will examine each team’s findings.  

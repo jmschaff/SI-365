@@ -1,0 +1,38 @@
+The statistics lab will be held in in our regular classroom.  Please bring your laptop with the Anaconda distribution of the Jupyter notebook environment.  The examples use python 2.7 but with minor changes should also work with python 3.4.
+
+The lab features exercise based on python code that you will develop based off of “seed” code that will be provided to you.  
+
+You will work in teams of two for this lab.  See the Canvas site for your assigned partner.  
+
+The lab is divided into two parts with one day devoted to each part.  The first day each team will develop code to generate 1M (x,y) pair values that follow a 2D normal (aka, Gaussian) distribution of their own design (see rules below).  
+
+At the Thursday meeting, you will analyze another team’s data to extract the underlying parameters of that 2D Gaussian through bootstrap analysis.  You will be notified on Thursday as to which team’s data you will analyze. 
+
+On the first day, you will warm up with: 
+  - a random walk example
+  - code to generate a 1D Gaussian distribution 
+  - produce a histogram to visually confirm your 1D distribution
+  - write code to generate a 2D Gaussian distribution 
+  - produce a color/heat map to visually confirm your 2D distribution
+
+Rules for 2D Gaussian parameters: 
+  - mu_x and mu_y must lie on the interval [–100, 100]
+  - sigma_x and sigma_y must lie in the interval [0.001, 1000]
+  - the correlation coefficient must lie in the interval [–.99, .99]
+
+
+END PRODUCTS TO BE REPORTED BY EACH TEAM : 
+
+Note: NN is your group number using two digits: 01, 02,… 19
+
+TO DRIVE: 
+In Drive folder NN, place file “NNtuesday.csv”,  the csv file with the set of 1M (x,y) pairs your team generated on Tuesday.
+
+TO CANVAS
+“NNtuesday.ipynb”: the notebook used to generate the data 
+
+TO GOOGLE FORM (linked to assignment) 
+- enter your team NN and the parameter values you chose:   {mu_x, sigma_x, mu_y, sigma_y, r} 
+
+
+Please FOLLOW THE NAMING CONVENTION CAREFULLY AND PLACE YOUR CSV IN THE PROPER FOLDER 
